@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PNJ-CheckOut</title>
+    <!-- setlogo cho web -->
+    <link
+      rel="icon"
+      href="https://cdn.haitrieu.com/wp-content/uploads/2022/01/Icon.png"
+    />
+    <link>
+  <link rel="icon" href="https://cdn.haitrieu.com/wp-content/uploads/2022/01/Icon.png" />
+  <!-- jequery library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./check-inf.css" />
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- CSS BOOSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header">
+      <div class="header_top">
+        <div class="span_topLeft">
+          <ul>
+            <li>
+              <a href="" rel="nofollow">
+                <img class="img-iconTopLL" src="https://cdn.pnj.io/images/image-update/layout/icon-relationship-new.svg"
+                  alt="Quan hệ cổ đông" />
+                <span class="txt-TopL1">Quan hệ cổ đông (IR)</span>
+              </a>
+            </li>
+            <li>
+              <a href="" rel="nofollow">
+                <img class="img-iconTopLM" src="https://cdn.pnj.io/images/image-update/layout/icon-stores-new.svg"
+                  alt="Cửa hàng" />
+                <span class="txt-TopLM">Cửa hàng</span>
+              </a>
+            </li>
+            <li>
+              <a href="" rel="nofollow">
+                <img class="img-iconTopLR" src="https://cdn.pnj.io/images/image-update/layout/icon-hotline-new.svg"
+                  alt="Hotline" />
+                <span class="txt-TopLR">1800 54 54 57</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="span_topMid">
+          <a href="../index.html">
+            <img src="https://cdn.pnj.io/images/logo/pnj.com.vn.png" alt="logoPNJ" />
+          </a>
+        </div>
+        <div class="span_topRight">
+          <ul>
+            <li>
+              <a href="">
+                <img class="img-iconTopRR" src="https://cdn.pnj.io/images/image-update/layout/icon-cart-new.svg"
+                  alt="Giỏ hàng" />
+                <span class="txt-TopRR">Giỏ hàng</span>
+                <!-- <span class="number-sp">0</span> -->
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img class="img-iconTopRL" src="https://cdn.pnj.io/images/2023/user-regular.svg"
+                  alt="Tài khoản của tôi" />
+                <span class="txt-TopRL">Tài khoản của tôi</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header_mid"></div>
+      <div class="header_bottom">
+        <div class="span_bottomLeft">
+          <ul>
+            <li>
+              <a href="">
+                <span>Trang sức</span>
+              </a>
+              <div class="over_layBottomL1">
+                <br />
+                <div class="menu_bottom1">
+                  <table cellspacing="0" border="0">
+                    <tbody>
+                      <tr class="menu_bottom1Header">
+                        <td><a href="">Chủng loại</a></td>
+                        <td><a href="">Chất liệu</a></td>
+                        <td><a href="">Dòng hàng</a></td>
+                        <td><a href="">Bộ sưu tập</a></td>
+                        <td><a href="">Trang sức phong thủy</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Nhẫn</a></td>
+                        <td><a href="">Vàng</a></td>
+                        <td><a href="">Trang sức đính kim cương</a></td>
+                        <td>
+                          <a href="">Sunnyva
+                            <img src="https://cdn.pnj.io/images/image-update/tag-product/newBST-icon-.svg" alt="" style="
+                                  margin-left: 5px;
+                                  height: 18px;
+                                  position: relative;
+                                  top: -3px;
+                                  vertical-align: middle;
+                                " />
+                          </a>
+                        </td>
+                        <td><a href="">Trang sức theo cung</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Dây chuyền</a></td>
+                        <td><a href="">Bạc</a></td>
+                        <td><a href="">Trang sức đính ECZ</a></td>
+                        <td>
+                          <a href="">Audax rosa
+                            <img src="https://cdn.pnj.io/images/image-update/tag-product/newBST-icon-.svg" alt="" style="
+                                  margin-left: 5px;
+                                  height: 18px;
+                                  position: relative;
+                                  top: -3px;
+                                  vertical-align: middle;
+                                " />
+                          </a>
+                        </td>
+                        <td><a href="">Trang sức theo định mệnh</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Mặt dây chuyền</a></td>
+                        <td><a href="">Platinum</a></td>
+                        <td>
+                          <a href="">Trang sức đính đá quý và bán quý</a>
+                        </td>
+                        <td>
+                          <a href="">Share the wonder
+                            <img src="https://cdn.pnj.io/images/image-update/tag-product/newBST-icon-.svg" alt="" style="
+                                  margin-left: 5px;
+                                  height: 18px;
+                                  position: relative;
+                                  top: -3px;
+                                  vertical-align: middle;
+                                " />
+                          </a>
+                        </td>
+                        <td>
+                          <a href="" style="font-weight: bold">Trang sức trẻ em</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Bông tai</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Trang sức công nghệ ý</a></td>
+                        <td>
+                          <a href="">Niềm tin
+                            <img src="https://cdn.pnj.io/images/image-update/tag-product/newBST-icon-.svg" alt="" style="
+                                  margin-left: 5px;
+                                  height: 18px;
+                                  position: relative;
+                                  top: -3px;
+                                  vertical-align: middle;
+                                " />
+                          </a>
+                        </td>
+                        <td>
+                          <a href="" style="font-weight: bold">Trang sức nam</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Lắc</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Trang sức đính ngọc trai</a></td>
+                        <td><a href="">Trầu cau PNJ</a></td>
+                        <td>
+                          <a href="" style="font-weight: bold">Trang sức tín ngưỡng</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Vòng</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Trang sức đính CZ</a></td>
+                        <td><a href="">Masterpiece</a></td>
+                        <td>
+                          <a href="" style="font-weight: bold">Online exclusive</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Charm</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Trang sức không đính đá</a></td>
+                        <td><a href="">Euphoria</a></td>
+                        <td>
+                          <a href="" style="font-weight: bold">Bộ trang sức</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Dây cổ</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Kim cương viên</a></td>
+                        <td><a href="">Fisrt diamond</a></td>
+                        <td>
+                          <a href="" style="font-weight: bold">Best seller
+                            <img src="https://cdn.pnj.io/images/image-update/tag-product/navigator-best-seller-icon.svg"
+                              alt="" style="
+                                  margin-left: 5px;
+                                  height: 18px;
+                                  position: relative;
+                                  top: -3px;
+                                  vertical-align: middle;
+                                " />
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Kiềng</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Sweety hello kitty</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Vàng Tài Lộc</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Unisex</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">The shining princess</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Ariel</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">DNA vol 1</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">DNA vol 3</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="">
+                <span>Trang sức cưới</span>
+              </a>
+              <div class="over_layBottomL2">
+                <br />
+                <div class="menu_bottom2">
+                  <table cellspacing="0" border="0">
+                    <tbody>
+                      <tr class="menu_bottom2Header">
+                        <td><a href="">Theo mục đích</a></td>
+                        <td><a href="">Chủng loại</a></td>
+                        <td><a href="">Dòng trang sức</a></td>
+                        <td><a href="">Chất liệu</a></td>
+                        <td><a href="">Bộ sưu tập</a></td>
+                        <td rowspan="12">
+                          <img src="https://cdn.pnj.io/images/2023/09/cuoi/Banner_BST_Trau_Cau_400x270.png" alt=""
+                            style="height: 300px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Cầu hôn</a></td>
+                        <td><a href="">Nhẫn cặp</a></td>
+                        <td><a href="">Kim cương</a></td>
+                        <td><a href="">Vàng 24K</a></td>
+                        <td>
+                          <a href="">Trầu cau PNJ
+                            <img src="https://cdn.pnj.io/images/image-update/tag-product/newBST-icon-.svg" alt="" style="
+                                  margin-left: 5px;
+                                  height: 18px;
+                                  position: relative;
+                                  top: -3px;
+                                  vertical-align: middle;
+                                " /></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Kết hôn</a></td>
+                        <td><a href="">Nhẫn</a></td>
+                        <td><a href="">ECZ-CZ</a></td>
+                        <td><a href="">Vàng 22K</a></td>
+                        <td>
+                          <a href="">The heart of gold
+                            <img src="https://cdn.pnj.io/images/image-update/tag-product/newBST-icon-.svg" alt="" style="
+                                  margin-left: 5px;
+                                  height: 18px;
+                                  position: relative;
+                                  top: -3px;
+                                  vertical-align: middle;
+                                " /></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Kỉ niệm</a></td>
+                        <td><a href="">Dây cổ</a></td>
+                        <td><a href="">Không đính đá</a></td>
+                        <td><a href="">Vàng 18K</a></td>
+                        <td><a href="">The story in your rings</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href="">Kiềng</a></td>
+                        <td><a href="">Đá màu</a></td>
+                        <td><a href="">Vàng 14K</a></td>
+                        <td><a href="">The moment</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href="">Vòng tay</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Vàng 10K</a></td>
+                        <td><a href="">Báu vật phu thê</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href="">Lắc</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Hạnh phúc</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href="">Bông tai</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Long phụng sum vầy</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href="">Mặt dây chuyền</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Vũ khúc tình yêu</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href="">Charm</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Thiên duyên</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Bốn mùa yêu thương</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Hoa tình yêu</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="">
+                <span>Đồng hồ</span>
+              </a>
+              <div class="over_layBottomL3">
+                <br />
+                <div class="menu_bottom3">
+                  <table cellspacing="0" border="0">
+                    <tbody>
+                      <tr class="menu_bottom3Header">
+                        <td><a href="">Thương hiệu thụy sỹ</a></td>
+                        <td><a href="">Thương hiệu thời trang</a></td>
+                        <td><a href="">Thương hiệu yêu thích</a></td>
+                        <td><a href="">Giới tính</a></td>
+                        <td><a href="">Chủng loại</a></td>
+                        <td><a href="">Chất liệu dây</a></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a href="">Jowissa
+                            <img src="https://cdn.pnj.io/images/image-update/menu/v1-icon-watch.svg" alt="Độc Quyền"
+                              style="
+                                  height: 10px;
+                                  position: relative;
+                                  vertical-align: bottom;
+                                " /></a>
+                        </td>
+                        <td><a href="">Silvina</a></td>
+                        <td><a href="">Citizen</a></td>
+                        <td><a href="">Nam</a></td>
+                        <td><a href="">Đồng hồ</a></td>
+                        <td><a href="">Dây da</a></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a href="">Silvina
+                            <img src="https://cdn.pnj.io/images/image-update/menu/v1-icon-watch.svg" alt="Độc Quyền"
+                              style="
+                                  height: 10px;
+                                  position: relative;
+                                  vertical-align: bottom;
+                                " /></a>
+                        </td>
+                        <td>
+                          <a href="">Emily carter
+                            <img src="https://cdn.pnj.io/images/image-update/menu/v1-icon-watch.svg" alt="Độc Quyền"
+                              style="
+                                  height: 10px;
+                                  position: relative;
+                                  vertical-align: bottom;
+                                " /></a>
+                        </td>
+                        <td><a href="">Casio</a></td>
+                        <td><a href="">Nữ</a></td>
+                        <td><a href="">Mắt kính</a></td>
+                        <td><a href="">Dây dép không gỉ 316L</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Longines</a></td>
+                        <td><a href="">Olivia burton</a></td>
+                        <td><a href="">Orient</a></td>
+                        <td><a href="">Unisex</a></td>
+                        <td><a href="">Đồng hồ cặp</a></td>
+                        <td><a href="">Dây cao su</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Tissot</a></td>
+                        <td><a href="">Just cavalli</a></td>
+                        <td><a href="">Skagen</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Phụ kiện</a></td>
+                        <td><a href="">Dây satin</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Jacques du manoir</a></td>
+                        <td><a href="">Kenneth cole</a></td>
+                        <td>
+                          <a href="">Landcaster
+                            <img src="https://cdn.pnj.io/images/image-update/menu/v1-icon-watch.svg" alt="Độc Quyền"
+                              style="
+                                  height: 10px;
+                                  position: relative;
+                                  vertical-align: bottom;
+                                " /></a>
+                        </td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href="">Các loại dây khác</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Claude bernard</a></td>
+                        <td>
+                          <a href="">Avi-8
+                            <img src="https://cdn.pnj.io/images/image-update/menu/v1-icon-watch.svg" alt="Độc Quyền"
+                              style="
+                                  height: 10px;
+                                  position: relative;
+                                  vertical-align: bottom;
+                                " /></a>
+                        </td>
+                        <td><a href="">Hamilton</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href="">Michael kors</a></td>
+                        <td><a href="">Calvin klein</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href="">Fossil</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href="">Daniel wellington</a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="">
+                <span>Quà tặng</span>
+              </a>
+              <div class="over_layBottomL4">
+                <br />
+                <div class="menu_bottom4">
+                  <table cellspacing="0" border="0">
+                    <tbody>
+                      <tr class="menu_bottom4Header">
+                        <td><a href="">Gợi ý quà tặng</a></td>
+                        <td style="width: 400px">
+                          <a href="">Phiếu quà tặng</a>
+                        </td>
+                        <td rowspan="10">
+                          <a href=""><img src="https://cdn.pnj.io/images/image-update/img-menu/qua-tang-t4-2023.jpg"
+                              alt="Quà tặng" style="
+                                  padding-left: 250px;
+                                  padding-top: 5px;
+                                  padding-bottom: 5px;
+                                  vertical-align: middle;
+                                " /></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Cho nàng</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Cho chàng</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Cho cha</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Cho mẹ</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Cho bé</a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                      <tr>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="">
+                <span>Thương hiệu</span>
+              </a>
+              <div class="over_layBottomL5">
+                <br />
+                <div class="menu_bottom5">
+                  <table cellspacing="0" border="0">
+                    <tbody>
+                      <tr class="menu_bottom5Header">
+                        <td colspan="12">
+                          <a href=""><img src="https://cdn.pnj.io/images/2023/brand-search-bar/brand-icon.svg"
+                              alt="Gợi ý quà tặng" style="
+                                  padding-right: 5px;
+                                  width: 14px;
+                                  vertical-align: middle;
+                                " />Gợi ý quà tặng</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a href=""><img src="https://cdn.pnj.io/images/2023/brand-search-bar/watch.svg"
+                              alt="PNJ Watch" /></a>
+                        </td>
+                        <td>
+                          <a href=""><img src="https://cdn.pnj.io/images/2023/brand-search-bar/style.svg"
+                              alt="STYLE By PNJ" /></a>
+                        </td>
+                        <td>
+                          <a href=""><img src="https://cdn.pnj.io/images/2023/brand-search-bar/disney.svg"
+                              alt="Disney|PNJ" /></a>
+                        </td>
+                        <td>
+                          <a href=""><img src="https://cdn.pnj.io/images/2023/brand-search-bar/pnj.svg" alt="PNJ" /></a>
+                        </td>
+                        <td>
+                          <a href=""><img src="https://cdn.pnj.io/images/2023/brand-search-bar/silver.svg"
+                              alt="PNJSILVER" /></a>
+                        </td>
+                        <td>
+                          <a href=""><img src="https://cdn.pnj.io/images/2023/04/hello-kitty/sanrio2.svg"
+                              alt="HELLO KITTY" /></a>
+                        </td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                        <td><a href=""></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="">
+                <span>Blog</span>
+              </a>
+              <div class="over_layBottomL6"></div>
+            </li>
+            <li>
+              <a href="">
+                <span class="discount">Khuyến mãi</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="span_bottomRight">
+          <input class="search_check_123" type="text" placeholder="Tìm kiếm nhanh" />
+          <a href="../search_product/index.html">
+            <button onclick="search()">
+              <img src="https://cdn.pnj.io/images/image-update/layout/mobile/find-icon.svg" alt="Tìm kiếm nhanh" />
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- BODY -->
+  <div class="checkContainer">
+    <div class="checkAll">
+      <div class="checkContent"></div>
+      <div class="checkTotal">
+        <div class="caculate">
+          <p>Tạm tính</p>
+          <p class="caculateSum"></p>
+        </div>
+        <div class="caculate">
+          <p>VAT</p>
+          <p class="vat">12345</p>
+        </div>
+        <div class="caculate">
+          <p>Chi phí vận chuyển</p>
+          <p>Miễn phí</p>
+        </div>
+        <hr />
+        <div class="total">
+          <p><b>Thành tiền</b></p>
+          <p><span class="sumTotalAll"></span></p>
+        </div>
+        <div class="contentVat">
+          <p>Giá tham khảo đã bao gồm VAT</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="checkout">
+      <div class="checkout_step"></div>
+      <div class="checkout_content">
+        <form action="" name="info_customer" id="info">
+          <div id="step1">
+            <div class="step_title">
+              <span class="number_step">1</span>
+              <span>Thông tin người mua</span>
+            </div>
+            <div class="step1_content">
+              <div class="gender">
+                <div class="gender_content">
+                  <input name="customer_gender" id="male" type="radio" />
+                  <label for="male">Anh</label>
+                </div>
+                <div class="gender_content">
+                  <input name="customer_gender" id="female" type="radio" />
+                  <label for="female">Chị</label>
+                </div>
+                <span class="gender_message" style="display: none">
+                  <p>Vui lòng chọn giới tính của bạn</p>
+                </span>
+              </div>
+              <div class="info_input">
+                <div class="form_row">
+                  <div class="checkout_detail">
+                    <label style="display: none" for="fullname">Họ tên</label>
+                    <input placeholder="Họ tên (bắt buộc)" type="text" name="customer_fullname" id="name" />
+                  </div>
+                  <div class="checkout_detail">
+                    <label style="display: none" for="phone">SĐT</label>
+                    <input placeholder="SĐT (bắt buộc)" type="text" id="phone" name="customer_phone" />
+                  </div>
+                </div>
+                <div class="form_row">
+                  <div class="checkout_detail">
+                    <label style="display: none" for="email"></label>
+                    <input type="text" id="email" name="customer_email" placeholder="Email" />
+                  </div>
+                  <div class="checkout_detail">
+                    <input type="text" placeholder="Ngày sinh (dd-mm-yyyy)" name="customer_birthday" id="birthday"
+                      maxlength="10" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="continue_button"></div>
+          </div>
+          <div id="step2">
+            <div class="step_title">
+              <span class="number_step">2</span>
+              <span>Hình thức nhận hàng</span>
+            </div>
+            <div class="step2_content">
+              <div class="payment_type">
+                <div class="choose_shipping">
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">
+                        <h5>Giao hàng tận nơi</h5>
+                        <p><i>(Miễn phí giao hàng toàn quốc)</i></p>
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">
+                        <h5>Nhận tại cửa hàng</h5>
+                        <p><i>(Giữ hàng trước - nhận hàng ngay)</i></p>
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                      aria-labelledby="pills-home-tab" tabindex="0">
+                      <div class="form_row">
+                        <div class="checkout_detail">
+                          <label style="display: none" for="province">Tỉnh/TP</label>
+                          <input placeholder="Tỉnh/TP(*)" type="text" name="customer_province" id="province_shipping" />
+                        </div>
+                        <div class="checkout_detail">
+                          <label style="display: none" for="distract">Quận/Huyện</label>
+                          <input placeholder="Quận/Huyện(*)" type="text" id="distract_shipping"
+                            name="customer_distract" />
+                        </div>
+                      </div>
+                      <div class="form_row">
+                        <div class="checkout_detail">
+                          <label style="display: none" for="ward"></label>
+                          <input required type="text" id="ward_shipping" name="customer_ward"
+                            placeholder="Phường/Xã(*)" />
+                        </div>
+                        <div class="checkout_detail">
+                          <label style="display: none" for="detail_location">Địa chỉ cụ thể</label>
+                          <input type="text" placeholder="Nhập Địa chỉ khách hàng (*)" name="customer_location"
+                            id="detail_location" />
+                        </div>
+                      </div>
+                      <div class="form_row_note">
+                        <div class="checkout_note">
+                          <label style="display: none" for="note">Ghi chú</label>
+                          <input type="text" placeholder="Ghi chú khác" name="customer_note" id="note_shipping" />
+                        </div>
+                      </div>
+                      <h5><b>Phương thức vận chuyển</b></h5>
+                      <div class="free_fast_delivery">
+                        <span class="choose_fast_delivery">
+                          <input type="radio" id="fast_delivery" style="display: none;"/>
+                        </span>
+                        <div class="fast_delivery_content">
+                          <span class="free_ship">
+                            <h5><b>Miễn phí giao hàng nhanh</b></h5>
+                          </span>
+                          <div class="delivery_date">
+                            <span class="delivery_title">Dự kiến nhận hàng:
+                            </span>
+                            <span class="delivery_expected">Thứ năm, ngày 07/12/2023 - Thứ năm, ngày
+                              14/12/2023</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="customer_choice">
+                        - Xuất hóa đơn công ty (không áp dụng phiếu quà tặng
+                        điện tử)
+                      </div>
+                      <div class="customer_choice">
+                        - Đồng ý nhận các thông tin và chương trình khuyến mãi
+                        của PNJ qua email, SMS , mạng xã hội…
+                      </div>
+                      <div class="customer_choice">
+                        - Tôi đồng ý cho PNJ thu thập, xử lý dữ liệu cá nhân
+                        của tôi theo quy định tại
+                        <a href="https://pnj.com.vn/chinh-sach-xu-ly-du-lieu-ca-nhan.html">thông báo này</a>
+                        và theo quy định của pháp luật.
+                      </div>
+                      <div class="customer_choice">
+                        - Tôi muốn gửi thiệp và lời chúc qua tin nhắn
+
+                        <p class="PNJ_note">
+                          <i>PNJ cá nhân hóa trải nghiệm khách hàng bằng dịch
+                            vụ "Thiệp Điện Tử", đồng thời cho phép viết lời
+                            chúc và gửi kèm thiệp. Thiệp sẽ được gửi SMS trực
+                            tiếp đến người nhận sau khi hoàn tất nhận hàng -
+                            đảm bảo an toàn, bảo mật và riêng tư.</i>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                      tabindex="0">
+                      <div class="form_row">
+                        <div class="checkout_detail">
+                          <label style="display: none" for="province">Tỉnh/TP</label>
+                          <input placeholder="Tỉnh/TP(*)" type="text" name="customer_province" id="province_direct" />
+                        </div>
+                        <div class="checkout_detail">
+                          <label style="display: none" for="distract">Quận/Huyện</label>
+                          <input placeholder="Quận/Huyện(*)" type="text" id="distract_direct"
+                            name="customer_distract" />
+                        </div>
+                      </div>
+                      <div class="another_choice">
+                        <span>Tạm hết tại cửa hàng, bạn có thể chọn Giao hàng tận
+                          nơi</span>
+                      </div>
+                      <div class="form_row_note">
+                        <div class="checkout_note">
+                          <label style="display: none" for="note">Ghi chú</label>
+                          <input type="text" placeholder="Ghi chú khác" name="customer_note" id="note_direct" />
+                        </div>
+                      </div>
+                      <div class="customer_choice">
+                        <p>
+                          - Xuất hóa đơn công ty (không áp dụng phiếu quà tặng
+                          điện tử)
+                        </p>
+                      </div>
+                      <div class="customer_choice">
+                        <p>
+                          - Đồng ý nhận các thông tin và chương trình khuyến
+                          mãi của PNJ qua email, SMS , mạng xã hội…
+                        </p>
+                      </div>
+                      <div class="customer_choice">
+                        <p>
+                          - Tôi đồng ý cho PNJ thu thập, xử lý dữ liệu cá nhân
+                          của tôi theo quy định tại
+                          <a href="https://pnj.com.vn/chinh-sach-xu-ly-du-lieu-ca-nhan.html">thông báo này</a>
+                          và theo quy định của pháp luật.
+                        </p>
+                      </div>
+                      <div class="customer_choice">
+                        <p style="color: #003468; font-weight: bold">
+                          - Tôi muốn gửi thiệp và lời chúc qua tin nhắn
+                        </p>
+                        <p class="PNJ_note">
+                          <i>PNJ cá nhân hóa trải nghiệm khách hàng bằng dịch
+                            vụ "Thiệp Điện Tử", đồng thời cho phép viết lời
+                            chúc và gửi kèm thiệp. Thiệp sẽ được gửi SMS trực
+                            tiếp đến người nhận sau khi hoàn tất nhận hàng -
+                            đảm bảo an toàn, bảo mật và riêng tư.</i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="finish_order">
+            <button onclick="submitOrder(event)">
+              <b>ĐẶT HÀNG</b>
+            </button>
+            <p>(Bạn có thể chọn hình thức thanh toán sau khi đặt hàng)</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER  -->
+  <footer class="load">
+    <div class="footerTop"></div>
+    <div class="footerContent">
+      <div class="logoPNJ">
+        <img src="https://cdn.pnj.io/images/logo/pnj.com.vn.png" alt="logo PNJ" />
+      </div>
+      <div class="detailContent">
+        <div class="infoPNJ">
+          <div class="address">
+            <p style="
+                  font-weight: 300px;
+                  font-size: 14px;
+                  color: rgb(23, 23, 23);
+                ">
+              © 2017 Công Ty Cổ Phần Vàng Bạc Đá Quý Phú Nhuận
+            </p>
+            <p>170E Phan Đăng Lưu, P.3, Q.Phú Nhuận, TP.Hồ Chí Minh</p>
+            <p>
+              ĐT: <a href="tel:028 39951703">028 39951703</a> - Fax:
+              <a href="">028 3995 1702</a>
+            </p>
+          </div>
+          <div class="certificate" style="margin-top: 5px">
+            <p>
+              <a
+                href="https://cdn.pnj.io/images/quan-he-co-dong/2023/10b-20230207-PNJ-GCN-DKDN-lan-35-CBTT-File-nhe.pdf">Giấy
+                chứng nhận đăng ký doanh nghiệp: 0300521758</a>
+              do Sở Kế hoạch & Đầu tư TP.HCM cấp lần đầu ngày 02/01/2004.
+              <a
+                href="https://cdn.pnj.io/images/quan-he-co-dong/2022/1d-Nganh-nghe-kinh-doanh-tai-ngay-06012022-CBTT.pdf">Ngành,
+                nghề kinh doanh</a>
+            </p>
+          </div>
+          <div class="contact">
+            <p>Tổng đài hỗ trợ (08:00-21:00, miễn phí gọi)</p>
+            <p>Gọi mua: <a href="tel:1800545457">1800545457</a> (phím 1)</p>
+            <p>Khiếu nại: <a href="tel:1800545457">1800545457</a> (phím 2)</p>
+          </div>
+        </div>
+        <div class="aboutPNJ" style="margin-left: 25px">
+          <ul>
+            <li>
+              <h2>VỀ PNJ</h2>
+            </li>
+            <li><a href="">Câu chuyện PNJ</a></li>
+            <li><a href="">Tuyển dụng</a></li>
+            <li><a href="">Xuất khẩu</a></li>
+            <li><a href="">Kinh doanh sỉ</a></li>
+            <li><a href="">Kiểm định kim cương</a></li>
+            <li><a href="">Kinh doanh vàng miếng</a></li>
+          </ul>
+        </div>
+        <div class="servicePNJ" style="margin-left: 70px">
+          <ul>
+            <li>
+              <h2>DỊCH VỤ KHÁCH HÀNG</h2>
+            </li>
+            <li><a href="">Hướng dẫn đo size trang sức</a></li>
+            <li><a href="">Mua hàng trả góp</a></li>
+            <li><a href="">Hướng dẫn mua hàng và thanh toán</a></li>
+            <li><a href="">Chính sách hoàn tiền</a></li>
+            <li><a href="">Chính sách giao hàng</a></li>
+            <li><a href="">Cẩm nang sử dụng trang sức</a></li>
+            <li><a href="">Chính sách bảo hành thu đổi</a></li>
+            <li><a href="">Chính sách khách hàng thân thiết</a></li>
+            <li><a href="">Chính sách bảo mật thông tin khách hàng</a></li>
+            <li><a href="">Chính sách xử lý dữ liệu cá nhân</a></li>
+            <li><a href="">Câu hỏi thường gặp</a></li>
+          </ul>
+        </div>
+        <div class="contactPNJ" style="margin-left: 80px">
+          <h2>KẾT NỐI VỚI CHÚNG TÔI</h2>
+          <div class="socialPNJ">
+            <a target="_blank" href="https://www.facebook.com/PNJ.COM.VN"><img
+                src="https://cdn.pnj.io/images/image-update/footer/facebook.svg" alt="facebook" /></a>
+            <a target="_blank" href="https://www.instagram.com/pnj_jewelry/"><img
+                src="https://cdn.pnj.io/images/image-update/footer/instagram.svg" alt="instagram" /></a>
+            <a target="_blank" href="https://www.youtube.com/user/PhuNhuanJewelry"><img
+                src="https://cdn.pnj.io/images/image-update/footer/youtube.svg" alt="youtube" /></a>
+            <a href="mailto:shop@pnj.com.vn"><img src="https://cdn.pnj.io/images/image-update/footer/email.svg"
+                alt="Gmail" /></a>
+          </div>
+          <div class="discountInfo">
+            <h2>QUAN TÂM ZALO OA PNJ</h2>
+            <p>Nhận các thông tin khuyến mãi hấp dẫn</p>
+            <a target="_blank" href="https://zalo.me/trangsucpnjofficial">
+              <img src="https://cdn.pnj.io/images/2023/zalo.png" alt="Zalo" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footerChild">
+        <div class="certificationPNJ">
+          <h2>CHỨNG NHẬN</h2>
+          <a target="_blank" href="http://online.gov.vn/Home/WebDetails/989"><img
+              src="https://cdn.pnj.io/images/image-update/op-da-thong-bao-bo-cong-thuong-183x60.png"
+              alt="Chứng nhận bộ công thương" /></a>
+        </div>
+        <div class="paymentPNJ">
+          <h2>PHƯƠNG THỨC THANH TOÁN</h2>
+          <div class="img_paymentPNJ">
+            <img src="https://pnj.com.vn/design/themes/pnjrovski/media/images/payments/visa.svg" alt="visa" />
+            <img src="https://pnj.com.vn/design/themes/pnjrovski/media/images/payments/mastercard.svg"
+              alt="mastercard" />
+            <img src="https://pnj.com.vn/design/themes/pnjrovski/media/images/payments/jcb.svg" alt="jcb" />
+            <img src="https://pnj.com.vn/design/themes/pnjrovski/media/images/payments/thanhtoantienmat.svg"
+              alt="thanhtoantienmat" />
+            <img src="https://pnj.com.vn/design/themes/pnjrovski/media/images/payments/internetBanking.svg"
+              alt="internetBanking" />
+            <img src="https://pnj.com.vn/design/themes/pnjrovski/media/images/payments/tragop.svg" alt="tragop0%" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JS -->
+  <script src="./check-product.js"></script>
+  <script src="../data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

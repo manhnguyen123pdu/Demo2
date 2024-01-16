@@ -1,0 +1,11 @@
+.table-bestSaler{
+    width: 100%;
+    border: 1px solid grey!important; 
+}
+.dataTable tr td {
+    line-height: 100px;
+    border: 1px solid grey!important; 
+}
+.saleContent {
+    width: 100%;
+}

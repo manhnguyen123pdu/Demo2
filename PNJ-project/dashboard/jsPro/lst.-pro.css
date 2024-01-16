@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+.contentPro {
+  text-transform: capitalize;
+}
+.contentPro table {
+  width: 100%;
+}
+.contentPro table,
+th,
+td {
+  border: 1px solid  #919191;
+}
+.conPro button {
+  border-radius: 5px;
+}
+.card-head {
+  padding: 4px;
+  font-size: 14px;
+  text-align: center;
+}
+.card-head tr th {
+  background-color: #636f83;
+  color: white;
+}
+.conPro {
+  text-align: center;
+}
+.conProImg {
+  width: 70px;
+  height: 70px;
+}
+.conProName {
+  font-size: 14px;
+}
+.conPro td {
+  padding: 15px;
+}
+.conProButton button:hover {
+  background-color: black;
+  color: white;
+}
+.card-head {
+  height: 60px;
+}
+.modal-body{
+  text-align: start;
+  
+}
+.modal-h h5{
+  font-size: 12px;
+  font-weight: bold;
+}
+.modal-con{
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 12px;
+  color: black;
+  border-radius: 2px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 2px grey;
+  display: flex;
+  align-items: center;
+}
+
+.modal-con input{
+  background-color: transparent;
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  border-color: transparent;
+}
+
+.btn-1{
+  border: 2px solid rgb(97, 97, 97);
+  margin-top: 10px;
+  border-radius: 0px!important;
+  width: 80px;
+  padding: 4px 0;
+  font-weight: bold;
+  color: black;
+
+}
+.btn-1:hover{
+  color: white;
+  background-color: gray!important;
+}
+
+.btn-2{
+  border: 2px solid rgb(97, 97, 97);
+  margin-top: 10px;
+  border-radius: 0px!important;
+  width: 80px;
+  padding: 4px 0;
+  font-weight: bold;
+  color: black;
+}
+.btn-2:hover{
+  color: white;
+  background-color: gray!important;
+}
+.btn-primary{
+  align-items: end;
+}
+.modal-form h5 {
+  font-weight: bold;
+  font-size: 14px;
+}
+.modal-con {
+  width: 100%;
+}
+.btn-add{
+  background-color: rgb(243, 239, 239);
+  float: right;
+  margin-right: 30px;
+  transition: 0.5s;
+}
+.btn-add:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+
+}
